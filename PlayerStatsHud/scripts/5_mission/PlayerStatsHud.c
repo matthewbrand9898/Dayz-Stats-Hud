@@ -117,7 +117,7 @@ modded class MissionGameplay
 		
 		}
            if(m_WidgetRoot.IsVisible()) {
-		    m_pValuesListboxWidget.SetText(" Health: " + PSD_Health.ToString() + "/100 " + " Blood: " +  PSD_Blood.ToString() +  "/5000 " + " Water: " + PSD_Water.ToString() + "/5000 "  + " Energy: " + PSD_Energy.ToString() + "/7500 " + " Temperature: " + PSD_Temp.ToString() +  Disease_Message);
+		    m_pValuesListboxWidget.SetText(" Health: " + PSD_Health.ToString() + "/100 " + " Blood: " +  PSD_Blood.ToString() +  "/5000 " + " Water: " + PSD_Water.ToString() + "/5000 "  + " Energy: " + PSD_Energy.ToString() + "/5000 " + " Temperature: " + PSD_Temp.ToString() +  Disease_Message);
 		
 		}
 			//Print(sHealth.ToString());
